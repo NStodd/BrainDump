@@ -17,7 +17,10 @@ _Everyone's got a brain, everyone's gotta dump._
       2. The Item Name (a String, inputted by the user)
 
 ### Technologies
-  
+  Tauri - for creating native app w/ web frontend
+  Rust - coding language for core code
+  Vue - frontend framework
+  Django - backend framework
 
 
 ### List of Routes
@@ -31,7 +34,7 @@ _Everyone's got a brain, everyone's gotta dump._
     *   Delete Item - DELETE to '/braindumps/:id/:item'
     *   Update - POST to '/braindumps/:id/:item'
  
-  * Frontend
+  * Frontend - TBD
     *   **Home Route**: Route path="/"
     *   **Index Route**: Route path="/aok"
     *   **Show Route**: Route path="aok/:id"
@@ -39,37 +42,41 @@ _Everyone's got a brain, everyone's gotta dump._
     *   **Update Route**: Route path="update/:id"
     *   **Delete Route**: Route path="delete/:id"
         
-### React Component Structure
+### Vue Component Structure
 
 -> App
 
  	-> Header
-		-> Button - To be able to create a new AoK from any view.
+		-> Button - To be able to create a new Brain Dump from any view.
 	
 	-> Outlet
 		-> Index
-			-> Post - a single AoK, displayed in descending chronological order.
+			-> Card - a single Brain Dump, displayed in descending chronological order w/ time created and size.
 		-> Show 
 			-> Button - to navigate to AoK's Update view.
 			-> Button - to run the Delete AoK function.
 		-> Create
-			-> Form - 3 text fields and a submit button
+			-> Form - adds an item and refreshes upon 'submitting'
 	
-		-> Update
-			-> Form - same 3 text fields and a submit button
+		-> Update - updates timestamp and allows to extend an already-created brain dump.
+			-> Single Form - to add one additional item at a time
 
 
 ### Mockups!
 
-![Index Mockup](https://i.imgur.com/MJB3LNp.png)
-![Show Mockup](https://i.imgur.com/teGcqxp.png)
-![Create/Update Mockup](https://i.imgur.com/TIZSBBE.png)
+![Index Mockup](TBD)
+![Show Mockup](TBD)
+![Create/Update Mockup](TBD)
 
 ### Reference
-[Project 4 Requirements](https://turmeric.seircohort.com/unit-projects/unit-four-project-requirements/)
 
 [Markdown Reference](https://www.seevividly.com/images/Markdown_Reference.png)
 
-[Turmeric Django React Frontend Lecture PDF](https://turmeric.seircohort.com/second-language/week-22/day-2/lecture-materials/react)
+[Rust, Tauri, SolidJS Tutorial](https://blog.logrocket.com/rust-solid-js-tauri-desktop-app/)
 
-[Turmeric Django API Lecture PDF](https://turmeric.seircohort.com/second-language/week-22/day-1/lecture-materials/djangoapi)
+Link Template
+[]()
+
+
+### Stretch Goals
+* Get running on Android
