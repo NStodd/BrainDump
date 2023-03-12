@@ -21,6 +21,8 @@ _Everyone's got a brain, everyone's gotta dump._
   Rust - coding language for core code
   Vue - frontend framework
   Django - backend framework
+  Vite - frontend/backend build tooling
+  
 
 
 ### List of Routes
