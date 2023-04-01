@@ -1,0 +1,50 @@
+{
+  "dumps": [
+    {
+      "id":"01",
+      "title": "Adam Sandler Movies",
+      "createdAt": 1594035908,
+      "items": [
+        {"id": 1, "name": "Billy Madison"},
+        {"id": 2, "name":"Happy Gilmore"},
+        {"id": 3, "name":"Big Daddy"},
+        {"id": 4, "name":"Spanglish"}
+      ]
+    },
+    {
+      "id":"02",
+      "title": "Crayola Reds",
+      "createdAt": 1594035908,
+      "items": [
+        {"id": 1, "name": "Red"},
+        {"id": 2, "name":"Maroon"},
+        {"id": 3, "name":"Scarlet"},
+        {"id": 4, "name":"Brick Red"},
+        {"id": 5, "name":"English Vermillion"},
+        {"id": 6, "name":"Madder Lake"},
+        {"id": 7, "name":"Permanent Geranium Lake"},
+        {"id": 8, "name":"Maximum Red"},
+        {"id": 9, "name":"Chestnut"},
+        {"id": 10, "name":"Orange-Red"},
+        {"id": 11, "name":"Sunset Orange"},
+        {"id": 12, "name":"Bittersweet"},
+        {"id": 13, "name":"Dark Venetian Red"},
+        {"id": 14, "name":"Venetian Red"},
+        {"id": 15, "name":"Light Venetian Red"}
+      ]
+    },
+    {
+      "id":"03",
+      "title": "Sodas",
+      "createdAt": 1594035908,
+      "items": [
+        {"id": 1, "name": "Coca-Cola Classic"},
+        {"id": 2, "name":"Sprite"},
+        {"id": 3, "name":"Sunkist"},
+        {"id": 4, "name":"Barq's Root Beer"},
+        {"id": 5, "name":"Mug Root Beer"},
+        {"id": 6, "name":"Pepsi"}
+      ]
+    }
+  ]
+ }
